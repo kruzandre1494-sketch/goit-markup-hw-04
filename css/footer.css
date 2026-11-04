@@ -1,0 +1,23 @@
+.footer {
+  padding: 100px 0;
+  background: #2e2f42;
+}
+.footer-left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 264px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0;
+}
+.logo-accent-footer {
+  color: #f4f4fd;
+}
+.footer-desc {
+  color: #f4f4fd;
+}
