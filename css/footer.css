@@ -29,6 +29,9 @@
 .footer-desc {
   color: #f4f4fd;
 }
+.footer .social-list {
+  gap: 16px;
+}
 .social-block {
   display: flex;
   align-items: flex-start;
