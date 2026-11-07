@@ -31,15 +31,15 @@
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 .team-avatar {
   display: block;
   width: 100%;
   height: auto;
   object-fit: cover;
-}
-.image-wrapper {
-  width: 100%;
-  overflow: hidden;
 }
 .team-content {
   display: flex;
@@ -58,4 +58,8 @@
 }
 .team-position {
   text-align: center;
+}
+.social-list .social-link:hover,
+.social-list .social-link:focus {
+  background: #404bbf;
 }
