@@ -22,10 +22,13 @@
   display: block;
   padding: 24px 0;
   color: #2e2f42;
+  transition: color 250ms ease;
 }
 .main-nav-link:hover,
-.main-nav-link:focus,
-.main-nav-link.current::after {
+.main-nav-link:focus {
+  color: #404bbf;
+}
+.main-nav-link.current {
   color: #404bbf;
 }
 .main-nav-link.current::after {
@@ -49,6 +52,7 @@
 .contacts-link {
   display: block;
   padding: 24px 0;
+  transition: color 250ms ease;
 }
 .contacts-link:hover,
 .contacts-link:focus {
